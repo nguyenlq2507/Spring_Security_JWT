@@ -19,8 +19,8 @@ public class User {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  @NotBlank
-  @Size(max = 20)
+  @NotBlank(message = "k dc de trong b oi")
+  @Size(max = 20, message = "user name can not be greater  than 20")
   private String username;
 
   @NotBlank

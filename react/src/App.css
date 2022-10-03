@@ -1,8 +1,8 @@
-*{
-	margin:auto;
-	padding: auto;
-	font-size: 13px;
-	font-family:courier,futura-pt,arial,helvetica;
+* {
+  margin: auto;
+  padding: auto;
+  font-size: 13px;
+  font-family: courier, futura-pt, arial, helvetica;
 }
 
 label {
@@ -38,21 +38,23 @@ label {
   border-radius: 50%;
 }
 
-.navbar-expand{
+.navbar-expand {
   background-color: #fff5f542;
-	height: 44px;
-	color: grey;
-	position: fixed;
-	width: 100%;
-  top:0;
-	left: 0;
-	right: 0;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 44px;
+  color: grey;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.mt-3, .my-3 {
-  margin-top: 8rem!important;
+.mt-3,
+.my-3 {
+  margin-top: 8rem !important;
 }
 
-
-
+.btn btn-secondary {
+  margin-left: 11px;
+}
